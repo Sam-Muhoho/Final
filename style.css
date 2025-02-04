@@ -1,0 +1,31 @@
+.nav{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    background-color: goldenrod;
+    justify-content: space-between;
+}
+.nav .logo img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+.nav .logo h4{
+    margin: -2px;
+    margin-left: 4px;
+    color:floralwhite;
+}
+.nav .nav-links {
+    margin: 15px;
+}
+
+.nav .nav-links ul li{
+    display: inline-flex;
+    margin: 15px;
+}
+.nav .nav-links ul li a{
+  color: midnightblue;
+}
+.nav .nav-links ul li a:hover{
+    color: floralwhite;
+}

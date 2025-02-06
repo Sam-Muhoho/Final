@@ -44,7 +44,7 @@
     grid-template-rows: repeat(3,1fr);
     width: 90%;
     height: 85%;
-    gap: 5px;
+    gap: 25px;
 }
 
 .container .house-container .pic{

@@ -3,8 +3,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Realtors Enterprise</title>
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
-    
+    <div class="nav">
+        <div class="logo">
+            <img src="https://png.pngtree.com/png-vector/20211023/ourmid/pngtree-salon-logo-png-image_4004444.png" alt="missing">
+            <h4>Realtors Enterprise</h4>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#About">Houses</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section>
+        <div class="form-container">
+            <form id="form">
+                <div class="input-group">
+                    <span class="input-group-text">First and last name</span>
+                    <input type="text" aria-label="First name" class="form-control" required>
+                    <input type="text" aria-label="Last name" class="form-control" required>
+                  </div>
+            <label for="">Email</label>
+                <input type="text" id="email" required><br>
+            <label for="">Phone</label>
+                <input type="number" id="phone" required><br>
+            <label for="">House selected</label>
+                <input type="number" id="house" min="1" max="9"required><br>
+             <div id="errors">
+                
+             </div>
+             <input type="submit" value="Validate">
+            </form>
+         </div>
+         <footer class="footer" id="footer">
+            <div class=" card location">
+                <h5>Location</h5>
+               <ul>
+                <li>In Kiambu</li>
+                <li>Along Kiambu road</li>
+                <li>At Evergreen square</li>
+            
+               </ul>
+            </div>
+            <div class=" card contacts">
+                <h5>Contacts</h5>
+                Feel free to contact us on:
+                <ul>
+                    <li>0725267576</li>
+                    or
+                    <li>0735841184</li>
+                    <li>realtorsenterprise@gmail.com</li>
+                </ul>
+            </div>
+            <div class=" card nav-links">
+                <ul>
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#footer">Contacts</a></li>
+                </ul>
+            </div>
+        
+    </section>
 </body>
+<script src="form.js"></script>
 </html>
